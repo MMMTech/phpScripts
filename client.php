@@ -23,7 +23,8 @@ $server_side_sock = dirname(__FILE__)."/server.sock";
 
 
 while(True){
-
+	
+	echo "CLIENT:>>>";
 	//message sent to server
 	$msg = fgets(STDIN);
 	if ($msg == 'quit'){
